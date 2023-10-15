@@ -1,0 +1,174 @@
+.side-nav-container{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 0px 30px 30px 0px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.profile-detail{
+    display: flex;
+     flex-direction: column;
+    margin-left: 12px;
+    margin-top: 10px;
+    gap: 16px;
+    /* align-items: center; */
+ 
+}
+
+.company-name{
+ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 33px; */
+    /* identical to box height */
+  
+    color: #000000;
+}
+
+.name-col-1{
+    color: #706d6d;
+}
+
+.profile-picture-circle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.outer-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(26, 26, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle{
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(69, 73, 102);
+}
+
+.small-edit-circle{
+    display: flex;
+    margin-left: 39px;
+    margin-top: -15px;
+    z-index: 3;
+    cursor: pointer;
+    /* justify-content: center; */
+   
+}
+
+.edit-circle{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: rgb(46, 50, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username{
+    display: flex;
+    margin-left: 38px;
+}
+
+.name{
+    color: #706d6d;
+}
+
+.pages-navigators{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 60%;
+    margin-left: 4px;
+
+}
+
+.navigators{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
+.name-col-2{
+    font-size: 14px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start ;
+    gap: 6px;
+}
+
+.dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.dot-2{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.icons-log{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b2b0b0;
+ 
+    /* gap: 6px; */
+}
+
+.logout-box{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+.Images{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.navigators-log{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    margin-left: 20px;
+}
+
+.pict{
+     width:100%;
+     height:100%;
+     background: transparent;
+     background-color: transparent;
+    
+    border-radius: 50%;
+}

@@ -1,0 +1,87 @@
+
+.O-multiple-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.offer-container{
+    width: 167px;
+    height: 175px;
+    border-radius: 20px;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    cursor: pointer;
+}
+
+.top-container{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: aqua;
+    border-radius: 15px;
+}
+
+.bottom-container{
+    width: 100%;
+    display:flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding-left: 4px;
+}
+
+.apartment-name{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.apartment-location{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.location-name{
+    font-size: 11px;
+    color: #706d6d;
+}
+
+.apartment-price{
+    width: 100%;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    margin-top: 8px;
+ 
+}
+
+.price{
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+
+.icons-2{
+    margin-right: 20px;
+    width: 22px;
+    height: 22px;
+     border-radius: 8px;
+    border: 1px solid #b2b0b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Images{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
